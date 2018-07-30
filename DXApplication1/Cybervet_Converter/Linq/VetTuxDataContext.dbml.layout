@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 18, 20.75" name="VetTuxDataContext">
+  <DataContextMoniker Name="/VetTuxDataContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e0db79db-d8de-4073-9d77-844e20485880" absoluteBounds="9.75, 7.75, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/PWEIGHT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f83bd72-e3a7-4d09-b54e-0762aa65fc7f" absoluteBounds="9.765, 8.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c34b9b12-2228-409a-a0a9-caac6eb81300" absoluteBounds="9.75, 10.75, 2, 6.1938297526041666">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/QITEM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2b7e4c88-bba1-46d9-87b9-a176ba5bf541" absoluteBounds="9.765, 11.21, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b55e57c7-a3b1-4d55-8013-e0594299ed82" absoluteBounds="12.75, 0.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/QUEINFO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="468d23b0-d6c8-41c6-bd2c-7db173eb62dc" absoluteBounds="12.765, 1.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2e410f28-ecb8-4244-89ad-d5c534d40cab" absoluteBounds="12.75, 5.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/STOCKCAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f60f5b36-fa5d-44ad-bedd-dddb4759ee1c" absoluteBounds="12.765, 6.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aba391c1-6709-4f7a-83c3-1b8a8185ff16" absoluteBounds="12.75, 8.75, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/STOCKC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d963f087-c2b5-447a-8f0e-009720817ac3" absoluteBounds="12.765, 9.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5ddd0f55-2fe6-47a9-b500-d8523d9558cd" absoluteBounds="12.75, 12.75, 2, 7.7322412109375023">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/STOCKINF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58ace5f2-1ee4-4c24-9b29-b10b29b146e2" absoluteBounds="12.765, 13.21, 1.9700000000000002, 7.1722412109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ce7b50ce-c859-4290-ae34-7d3e06811cc7" absoluteBounds="15.75, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/STOCKTYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c6a03bcb-34fb-4ae7-984d-c3f1d39358f5" absoluteBounds="15.765, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2257448-eef9-47fa-b8b3-4c4f145d386e" absoluteBounds="0.5, 0.625, 2, 5.0400211588541657">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/owner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0cdb4678-0172-4a31-9d18-f7be7174760d" absoluteBounds="0.51500000000000012, 1.085, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="975d7c5f-e981-4649-bf68-18e6c108d3ce" isExpanded="false" absoluteBounds="5.5, 0.625, 2, 0.45">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/receipt" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d40642bc-02ba-4d0c-906a-710c55a9c538" absoluteBounds="5.515, 1.085, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05a7997b-6e8c-462f-bfa8-23fe5a55fa63" absoluteBounds="3.25, 4.625, 2, 4.2708154296875">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/proc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30eb3c36-b168-4196-87b2-09371f1f4c8d" absoluteBounds="3.265, 5.085, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3467ce08-ff94-49b5-8666-2601643d3650" isExpanded="false" absoluteBounds="6.125, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/consult" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e7a831f7-df43-40f0-a776-73a9b4ae77db" absoluteBounds="6.14, 5.335, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9f041e6-e848-44af-975b-19a89703a833" absoluteBounds="8.625, 5.625, 2, 4.2708154296875">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/lab" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39a71f19-18b9-4b05-a086-3d3f39b1d997" absoluteBounds="8.64, 6.085, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="829e6d81-2502-4e4e-b5a0-51f566eb5045" absoluteBounds="0.875, 6.25, 2, 4.2708154296875">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/hospital" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d71c9828-a38d-4b34-bb06-44dd5a5d7501" absoluteBounds="0.89, 6.71, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="12625f87-25e9-4e8d-b8ea-3c2d2e989444" absoluteBounds="5.625, 8.875, 2, 4.2708154296875">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/diagnosi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb77f8ad-504e-43f8-b805-e90c251da7cc" absoluteBounds="5.64, 9.335, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e09c0b70-ca4a-4698-af7b-b483b9960d5d" absoluteBounds="8.5, 3, 2, 4.2708154296875">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/good" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d809c43-e4b9-4fd3-ae3c-c81ff468c256" absoluteBounds="8.515, 3.46, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e5e960bd-f1df-4617-ac80-112a171b3f57" absoluteBounds="5.75, 6.5, 2, 4.2708154296875">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/injection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec3e13fd-293f-4790-b8fe-30677c7fd0b8" absoluteBounds="5.765, 6.96, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8ca1a89c-1843-4753-8a06-b66d4c799c26" absoluteBounds="3.5, 9.125, 2, 4.2708154296875">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/medication" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b6b9857-c828-40fd-acbd-a013aacbc29f" absoluteBounds="3.515, 9.585, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1071bf00-795d-476a-8277-6c6b76fc66ae" isExpanded="false" absoluteBounds="6, 4.5, 2, 0.45">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/stocktraceitem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20f41faf-b6d7-4e79-b5c0-f9660778a208" absoluteBounds="6.015, 4.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4dd827da-d0cc-4cd2-bbb1-3533e1e44b09" isExpanded="false" absoluteBounds="4, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/vaccination" />
+      <nestedChildShapes>
+        <elementListCompartment Id="283c5283-ee2f-47cb-b585-7960cb77fab8" absoluteBounds="4.015, 4.71, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="df32e23d-0cd1-4c5d-be26-2b67a2f0ac5f" absoluteBounds="3.75, 2.25, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/VetTuxDataContextDataContext/patient" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f190c99-8caf-4aaf-ab73-9d2629943cbc" absoluteBounds="3.765, 2.71, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

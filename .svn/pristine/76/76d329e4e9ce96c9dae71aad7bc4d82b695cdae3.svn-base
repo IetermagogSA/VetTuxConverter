@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="VetTux" Class="VetTuxDataContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=IETERMAGOG-PC\SQL2005;Initial Catalog=VetTux;Integrated Security=True" SettingsObjectName="VetTux_Converter.Properties.Settings" SettingsPropertyName="VetTuxConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PWEIGHT" Member="PWEIGHTs">
+    <Type Name="PWEIGHT">
+      <Column Name="PWCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QICODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PACODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PWMASS" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PWDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QITEMS" Member="QITEMs">
+    <Type Name="QITEM">
+      <Column Name="QSCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QUCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QICODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VICODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PACODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PRCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OWCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MOCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VECODE" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="STCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SACODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SICODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QSDESC" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="QUDOCNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QSQTYSOLD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UMCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PECODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QSINVPRICE" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="QSINVAMT" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="QSINVDISC" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="QSINVTAX" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="QSINVCOS" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="QSPRINTED" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="QSPRINTABLE" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="QSDATETIME" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="QSNOTE" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="QSSUPPRESS" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="QSSUPCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QUEINFO" Member="QUEINFOs">
+    <Type Name="QUEINFO">
+      <Column Name="QICODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VICODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PRCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DECODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PACODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PADESC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OWCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QIDATETIME" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="QISYMPTOMS" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="QIEMERGENCY" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="QIVETCODE" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="QISTATUS" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="QIACTIVE" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="QUCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STOCKCAT" Member="STOCKCATs">
+    <Type Name="STOCKCAT">
+      <Column Name="SACODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STCODE" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="SADESC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STOCKCS" Member="STOCKCs">
+    <Type Name="STOCKC">
+      <Column Name="SCCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SICODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CSCOSTPRICE" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CSSELLPRICE" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CSMARKUP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CSQONHAND" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CSQONORDER" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CSYTDSALES" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CSMTDSALES" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STOCKINF" Member="STOCKINFs">
+    <Type Name="STOCKINF">
+      <Column Name="SICODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIDESC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="STCODE" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="SACODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIUNITMEASURE" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="UMCODEREC" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UMCODEDISP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIQTYDISPENSED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VTCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SISCHED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIINJECT" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SIDAYSTOREMINDER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIREMCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIEUTHANASE" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SIMEDAIDCAT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIMEDAIDTARIF" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="MECODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIDISCOUNTIND" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SISTOCKITEMIND" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SICHARGEIND" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SIBARCODE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SISAVACODE" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="SIPRINTIND" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SITAXIND" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="VNCODEPRI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VNCODESEC" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SICOMBINED" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SISUPPRESS" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="RTCODE" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="SIBANNEDIND" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SINOTE" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SINOTEAUTODISP" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SIDISPDEFQTY" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SIREORDERLEVEL" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SINOTEIND" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="SICREM" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STOCKTYPE" Member="STOCKTYPEs">
+    <Type Name="STOCKTYPE">
+      <Column Name="STCODE" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="STDESC" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="GLACCTNO" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="GLDEPTNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VTCODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STVACCINEIND" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="STADDCHARGE" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="STZEROVAT" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.owner" Member="owners">
+    <Type Name="owner">
+      <Column Name="Surname" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Initials" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Title" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PhysAddr" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PostalAddr" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Email" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="IDno" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TelHome" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TelWork" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Cell" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Notes" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="VatNo" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="AccountNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BadDebt" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Language" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Discount" Type="System.Decimal" DbType="Decimal(5,3)" CanBeNull="true" />
+      <Column Name="MedDiscount" Type="System.Decimal" DbType="Decimal(5,3)" CanBeNull="true" />
+      <Column Name="ServDiscount" Type="System.Decimal" DbType="Decimal(5,3)" CanBeNull="true" />
+      <Column Name="Satellite" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Interest" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Statement" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.receipt" Member="receipts">
+    <Type Name="receipt">
+      <Column Name="MyNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AccountNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CashAmount" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ChequeAmount" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="CardAmount" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="EFTAmount" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="DiscountAmount" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="BadDebtAmount" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Balance" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ChangeDue" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Tendered" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="PayRef" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Cashier" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[proc]" Member="procs">
+    <Type Name="proc">
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UnitOfMeasure_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ReOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OnOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ToQuantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Tax1" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Tax2" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Remarks" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.consult" Member="consults">
+    <Type Name="consult">
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UnitOfMeasure_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ReOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OnOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ToQuantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Tax1" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Tax2" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Remarks" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.lab" Member="labs">
+    <Type Name="lab">
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UnitOfMeasure_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ReOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OnOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ToQuantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Tax1" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Tax2" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Remarks" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hospital" Member="hospitals">
+    <Type Name="hospital">
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UnitOfMeasure_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ReOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OnOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ToQuantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Tax1" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Tax2" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Remarks" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.diagnosis" Member="diagnosis">
+    <Type Name="diagnosi">
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UnitOfMeasure_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ReOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OnOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ToQuantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Tax1" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Tax2" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Remarks" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.goods" Member="goods">
+    <Type Name="good">
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UnitOfMeasure_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ReOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OnOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ToQuantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Tax1" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Tax2" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Remarks" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.injection" Member="injections">
+    <Type Name="injection">
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UnitOfMeasure_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ReOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OnOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ToQuantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Tax1" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Tax2" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Remarks" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.medication" Member="medications">
+    <Type Name="medication">
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UnitOfMeasure_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ReOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OnOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ToQuantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Tax1" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Tax2" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Remarks" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.stocktraceitem" Member="stocktraceitems">
+    <Type Name="stocktraceitem">
+      <Column Name="id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TraceNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Batch" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Expiry" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
+      <Column Name="Adjustment" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vaccination" Member="vaccinations">
+    <Type Name="vaccination">
+      <Column Name="Code" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Schedule" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitOfMeasure" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UnitOfMeasure_A" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="MarkUp" Type="System.Decimal" DbType="Decimal(10,6)" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ReOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OnOrder" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="ToQuantity" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Tax1" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Tax2" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Supplier" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Remarks" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DaysToReminder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.patient" Member="patients">
+    <Type Name="patient">
+      <Column Name="AccountNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="IDno" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Breed" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Species" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Colour" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="BirthDay" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Danger" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Weight" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="Satellite" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="PetNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
